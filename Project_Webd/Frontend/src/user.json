@@ -1,0 +1,41 @@
+[{
+    "_id": {
+      "$oid": "6611ca6824ef522541e5f724"
+    },
+    "userId": 1,
+    "fullName": "Jilson Correia",
+    "email": "correia.ji@northeastern.edu",
+    "password": "$2b$10$ZGNbiFEOFCbbF.t.zoo9qOT9ktpjVo8OqwDtjZO8Cz91qXKFrRTgK",
+    "role": "admin",
+    "__v": 2
+  },
+  {
+    "_id": {
+      "$oid": "6611ca6824ef522541e5f725"
+    },
+    "userId": 2,
+    "fullName": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "password": "$2b$10$ZGNbiFEOFCbbF.t.zoo9qOT9ktpjVo8OqwDtjZO8Cz91qXKFrRTgK",
+    "role": "user"
+  },
+  {
+    "_id": {
+      "$oid": "6611ca6824ef522541e5f726"
+    },
+    "userId": 3,
+    "fullName": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "password": "$2b$10$ZGNbiFEOFCbbF.t.zoo9qOT9ktpjVo8OqwDtjZO8Cz91qXKFrRTgK",
+    "role": "user"
+  },
+  {
+    "_id": {
+      "$oid": "6611ca6824ef522541e5f728"
+    },
+    "userId": 4,
+    "fullName": "Emily Wilson",
+    "email": "emily.wilson@example.com",
+    "password": "$2b$10$ZGNbiFEOFCbbF.t.zoo9qOT9ktpjVo8OqwDtjZO8Cz91qXKFrRTgK",
+    "role": "user"
+  }]

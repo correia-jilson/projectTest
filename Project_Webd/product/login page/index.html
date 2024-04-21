@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Login Form -->
+        <form id="loginForm">
+            <h2>Login</h2>
+            <label for="loginUsername">Username:</label>
+            <input type="text" id="loginUsername" name="username" required>
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" name="password" required>
+            <button type="submit">Login</button>
+            <p>Or login with:</p>
+            <div class="social-logins">
+                <button type="button" class="social-login" id="googleLogin"><img src="src/google.jpg" alt="Google" class="social-icon"></button>
+                <button type="button" class="social-login" id="instagramLogin"><img src="src/ins.png" alt="Instagram" class="social-icon"></button>
+                <button type="button" class="social-login" id="twitterLogin"><img src="src/twitter.png" alt="Twitter" class="social-icon"></button>
+            </div>
+        </form>
+
+        <!-- Signup Form -->
+        <form id="signupForm">
+            <h2>Sign Up</h2>
+            <label for="signupUsername">Username:</label>
+            <input type="text" id="signupUsername" name="username" required>
+            <label for="signupEmail">Email:</label>
+            <input type="email" id="signupEmail" name="email" required>
+            <label for="signupPassword">Password:</label>
+            <input type="password" id="signupPassword" name="password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

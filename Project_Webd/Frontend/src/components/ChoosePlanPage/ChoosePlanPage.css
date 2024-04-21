@@ -1,0 +1,127 @@
+/* ChoosePlanPage.css */
+.h1-title {
+    color: white;
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+.plan-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.plan-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.plan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.plan-title {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.plan-price {
+    font-size: 20px;
+    color: #fefbfb;
+    margin-bottom: 15px;
+}
+
+.plan-features {
+    flex-grow: 1; /* Allows the features list to expand and push the button down */
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.plan-features li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.plan-button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.plan-button:hover {
+    background-color: #004494;
+}
+
+.plan-card.selected {
+    border: 3px solid rgb(67, 190, 178);
+}
+.header {
+    background-color: #333; 
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    width: 100%; 
+    box-sizing: border-box; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+}
+
+.header h1 {
+    margin: 0;
+    color: white;
+}
+
+.cart-icon {
+    cursor: pointer;
+    font-size: 24px; /* Larger icon size */
+}
+
+.cart-count {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    position: absolute; /* Position the count badge relative to the icon */
+    top: -10px; /* Position the count above the icon */
+    right: -10px; /* Position the count to the right of the icon */
+}
+
+/* Additional styling to push content down below fixed header */
+.plan-container {
+    padding-top: 60px; /* Adjust this value based on your header's height */
+}
+.cart-details {
+    position: fixed;
+    top: 50px; /* Adjust based on your header height */
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    z-index: 1050; /* Higher than the header */
+}

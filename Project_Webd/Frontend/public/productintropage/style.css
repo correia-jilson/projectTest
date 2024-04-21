@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: poppins;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    margin: auto;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.03);
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    margin: 5px;
+    padding: 5px 20px;
+    color: #2e2e2e;
+    font-weight: 500;
+    opacity: 0.4;
+}
+.menu .active{
+    opacity: 1;
+}
+
+.menu li a:hover{
+    opacity: 1;
+    transition: all else 0.3s;
+}
+.logo{
+    font-size: 2.1rem;
+    color: #414141;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.right-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-element a{
+    margin: 0px 10px;
+}
+.right-element a i{
+    color: #2c2c2c;
+}
+.right-element a:hover{
+    color:#cf2727;
+    transition: all else 0.2s;
+}
+#main{
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+.main-img{
+    height: 1px;
+    width: 1px;
+}
+
+.main-img img{
+    width: 1px;
+    height: 1px;
+    object-position: center;
+    object-fit: contain;
+}
+
+.main-text{
+    max-width: 500px;
+}
+
+.main-text span{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e74444;
+    letter-spacing: 2px;
+}
+
+.main-text h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 45px;
+}
+.main-text p{
+    color: #414141;
+}
+.main-text a{
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.14);
+    color: #f8f8f8;
+    background-color: #e74444;
+}
+.main-text a:hover{
+    background-color: #e74444;
+    color:#ffffff;
+    transition: all else 0.3s;
+    border: none;
+}
+.intro-text {
+    max-width: 500px;
+    margin-bottom: 20px; 
+}
+
+.intro-text h2 {
+    font-size: 1.8rem;
+    color: #414141;
+    font-weight: 600;
+    margin-bottom: 10px; 
+}
+
+.intro-text p {
+    color: #585858; 
+    line-height: 1.6;
+    font-size: 1rem;
+}
+#product-features {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+    padding: 20px 0;
+    background-color: #f9f9f9;
+}
+
+.feature {
+    flex-basis: 30%; 
+    text-align: center; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.feature img {
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+.feature p {
+    color: #333; 
+    font-size: 0.9rem; 
+    line-height: 1.4;
+}
+#customer-experiences {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #ffffff; 
+    padding: 20px;
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+#customer-experiences h2 {
+    color: #2e2e2e;
+    font-size: 1.6rem; 
+    margin-bottom: 15px; 
+}
+
+.experience p {
+    font-size: 0.95rem; 
+    color: #555; 
+    margin-bottom: 20px; 
+    line-height: 1.6;
+}
+footer#contact-us {
+    background-color: #f3f3f3; /* Light grey background */
+    color: #333; /* Dark grey text for readability */
+    text-align: center; /* Center-align all text */
+    padding: 20px 0; /* Padding above and below the text */
+    border-top: 1px solid #ddd; /* Subtle border for visual separation from content */
+}
+
+footer#contact-us .contact-info {
+    width: 80%;
+    margin: auto; /* Centering the contact block horizontally */
+}
+
+footer#contact-us h3 {
+    font-size: 1.5rem; /* Slightly larger text for heading */
+    color: #2e2e2e;
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+footer#contact-us p {
+    font-size: 0.95rem;
+    margin: 5px 0; /* Spacing between lines */
+    line-height: 1.5;
+}

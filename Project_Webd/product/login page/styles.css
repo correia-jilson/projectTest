@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('src/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+button, .social-login {
+    padding: 15px;
+    border: none;
+    background-image: linear-gradient(to right, #82bdec 0%, #80e7eb 100%);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 100%; /* Ensures buttons fill the form width */
+    margin-top: 20px; /* Adds space above the buttons */
+}
+
+.social-logins {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensures social login buttons container fills form width */
+}
+
+.social-login {
+    flex: 1; /* Makes each social login button take equal space */
+    margin: 0 5px; /* Adds spacing between buttons */
+}
+
+.social-icon {
+    height: 30px; /* Adjust icon size if necessary */
+    width: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 30px);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #a8ffb9;
+    outline: none;
+}
+.container {
+    display: flex; /* This will lay out the children side by side */
+    justify-content: center; /* Centers the forms in the container */
+    align-items: stretch; /* Makes the forms fill the container vertically */
+    gap: 20px; /* Adds space between the forms */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+form {
+    flex: 1; /* Each form will take up equal space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto; /* Allows flexbox to control the width */
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 800px) { /* Responsive adjustment for smaller screens */
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.product-info img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-info h2 {
+    color: #2d2d2d;
+}
+
+footer {
+    margin-top: 20px;
+}
